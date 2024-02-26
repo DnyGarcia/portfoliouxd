@@ -38,7 +38,7 @@ main {
     font-weight: bold;
     color: rgb(54, 46, 59);
     cursor: pointer;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Mulish';
 }
 
 .links:hover{
@@ -220,7 +220,7 @@ iframe {
 .contact {
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 1%;
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -262,17 +262,18 @@ iframe {
     font-size: 1em;
     font-weight:normal;
     cursor: pointer;
-    background: rgb(227, 207, 238);
+    background: #fff;
     border: 1px solid;
     border-radius: 5px;
-    font-family: 'Chakra Petch', sans-serif;
-    color:rgb(54, 46, 59);
+    font-family: 'Mulish';
+    color:#915278;
     padding: 1% 1% 1% 1%;
+    width: 30%;
 }
 
 .send-button:hover {
-    color:rgb(122, 122, 105)!important;
-    box-shadow: 0 4px 16px rgb(255, 246, 216);
+    color:#915278!important;
+    box-shadow: 0 4px 16px #915278;
     transition: all 0.2s ease;
 }
 

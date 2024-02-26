@@ -189,7 +189,8 @@
   }
 
   .toggle-menu a:hover {
-    background-color: rgba(104, 94, 105, 0.301);
+    color:#915278!important;
+    box-shadow: 0 4px 16px #915278;
     text-decoration: underline;
   }
 }
