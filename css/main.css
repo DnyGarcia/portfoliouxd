@@ -1,0 +1,393 @@
+main {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 3%;
+    padding-left: 3%;
+    flex-wrap: wrap;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    flex-wrap: wrap;
+}
+
+.social-media-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3%;
+    justify-content: space-around;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(54, 46, 59);
+    cursor: pointer;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+}
+
+.about-me {
+    padding: 2% 0 4% 0;
+}
+
+.about-me p {
+    text-align: justify;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.button-cv {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.download-cv-img {
+    width: 20px;
+    height: 20px;
+}
+
+#cv-download {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #915278;
+    cursor: pointer;
+    font-family: 'Mulish';
+    background: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 1% 1% 1% 1%;
+    text-align: center;
+    gap: 3%;
+    width: 10rem;
+}
+
+#cv-download:hover {
+    color: #915278 !important;
+    box-shadow: 0 4px 16px #915278;
+    transition: all 0.2s ease;
+}
+
+.section-skills {
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 2% 2% 2% 2%;
+    height: auto;
+    flex-direction: row;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+    height: 44%;
+    margin: 2%;
+    padding: 2% 2% 2% 2%;
+    text-align: center;
+    border-radius: 8px;
+    background: #e4dada7e;
+    box-shadow: 10px 5px 5px rgba(104, 94, 105, 0.301);
+    line-height: normal;
+    box-sizing: border-box;
+
+}
+
+.item img {
+    width: 80%;
+    height: 62%;
+    margin-bottom: 3%;
+    padding: 1% 1% 1% 1%;
+}
+
+.academic {
+    justify-content: center;
+    margin-top: 5%;
+}
+
+
+.academic-container {
+    display: flex;
+    justify-content: center;
+    padding: 2% 2% 2% 2%;
+    height: auto;
+}
+
+.academic-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 94%;
+}
+
+.academic-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 28%;
+    margin: 2% 2%;
+    padding: 2% 2% 2% 2%;
+    align-items: center;
+    background: #e4dada7e;
+    text-align: center;
+    box-shadow: 3px 3px 3px 2px rgba(104, 94, 105, 0.301);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+
+.academic-item img {
+    width: 80px;
+    height: 90px;
+    margin-bottom: 3%;
+}
+
+#alura {
+    width: 100px;
+    height: 90px;
+}
+
+.academic-item p:last-child {
+    text-align: center;
+}
+
+
+
+.fitconnect {
+    width: 52%; /* El iframe ocupará el 100% del ancho del contenedor padre */
+    height: 54vh; /* La altura inicial es cero para que se ajuste automáticamente según el ancho */
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.instructions {
+    margin-bottom: 2%;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.contact-image {
+    display: none;
+}
+
+.contact-me form label {
+    display: block;
+}
+
+.input {
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 15px;
+    width: 89%;
+    border: 1px solid rgb(54, 46, 59);
+    border-radius: 5px;
+    background-color: rgba(234, 230, 235, 0.151);;
+}
+
+.send-container {
+    display: flex;
+    justify-content: center;
+}
+
+.send-button {
+    font-size: 1em;
+    font-weight:normal;
+    cursor: pointer;
+    background: rgb(227, 207, 238);
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: 'Chakra Petch', sans-serif;
+    color:rgb(54, 46, 59);
+    padding: 1% 1% 1% 1%;
+}
+
+.send-button:hover {
+    color:rgb(122, 122, 105)!important;
+    box-shadow: 0 4px 16px rgb(255, 246, 216);
+    transition: all 0.2s ease;
+}
+
+
+
+@media (min-width: 768px){
+    .social-media-container {
+        width: 70%;
+        margin-top: 5%;
+    }
+
+    .social-media-list {
+        width: 100%;
+    }
+
+    .social-media img {
+        width: 40px;
+        height: 40px;
+        margin-right: 4px;
+    }
+
+    .item {
+        width: 20%;
+        height: 40%;    
+    }
+    
+    .item img {
+        width: 80%;
+        height: 62%;
+    }
+
+    .academic-list {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .academic-item {
+        height: 85%;
+        width: 25%;
+    }
+}
+
+@media (min-width: 1000px) {
+    
+    .social-media-container {
+        width: 70%;
+        margin-top: 5%;
+    }
+
+    .social-media-list {
+        width: 100%;
+    }
+
+    .social-media img {
+        width: 40px;
+        height: 40px;
+        margin-right: 4px;
+    }
+
+    .about-me p {
+        width: 85%;
+        margin-left: 7.5%;
+    }
+    .item {
+        width: 15%;
+        height: 80%;    
+    }
+    
+    .item img {
+        width: 80%;
+        height: 62%;
+    }
+
+    .list {
+        gap: 5%;
+    }
+
+    .academic-list {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .academic-item {
+        height: 85%;
+        width: 25%;
+    }
+
+    
+    .contact-container {
+        display: flex;
+    }
+
+    .contact-image {
+        display: flex;
+        width: 55%;
+        height: 70%;
+        margin-top: 5%;
+    }
+
+
+    #footer-container p {
+        padding-top: 1%;
+    }
+
+    .social-media-container-footer {
+        padding-top: 0;
+    }
+
+    .social-media-footer {
+        width: 33%;
+    }
+
+   .my-email {
+    padding-top: 0;
+    padding-bottom: 0;
+   }
+    
+}

@@ -1,0 +1,133 @@
+.img-profile {
+    display: flex;
+    justify-content: center;
+    animation:movimiento 4s linear infinite;
+}
+
+.hi-img {
+    width: 118px;
+    height:118px;
+    border: 5px double rgba(77, 64, 85, 0.192);
+    border-radius: 90%;
+}
+
+
+.hello {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 1.5em;
+}
+
+.hi p:last-child{
+    text-align: justify;
+    font-weight: normal;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cv-download:hover {
+    color: #915278 !important;
+    box-shadow: 0 4px 16px #915278;
+    transition: all 0.2s ease;
+}
+
+@keyframes movimiento {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(3px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 768px) {
+    .hi {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 4%;
+      }
+
+      .rol {
+        padding-left: 5%;
+      }
+    
+      .hi-img {
+        width: 200px;
+        height:200px;
+        border: 5px double rgba(77, 64, 85, 0.192);
+        border-radius: 90%;
+    }
+    
+      .img-profile {
+        margin-left: 10%;
+        margin-right: 2.5%;
+      }
+    
+      .hi-text {
+        margin-left: 2.5%;
+        margin-right: 10%;
+      }
+}
+
+@media (min-width: 1000px) {
+    .rol {
+        padding-left: 5%;
+      }
+
+      .hi {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 4%;
+    }
+    
+      .hi-img {
+        width: 300px;
+        height: 300px;
+        border: 5px double rgba(77, 64, 85, 0.192);
+        border-radius: 90%;
+    }
+    
+      .img-profile {
+        margin-left: 10%;
+        margin-right: 2.5%;
+      }
+    
+      .hi-text {
+        margin-left: 2.5%;
+        margin-right: 10%;
+      }
+    
+      .button-cv {
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+    }
+    #cv-download {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: #915278;
+      cursor: pointer;
+      font-family: 'Chakra Petch', sans-serif;
+      background: #fff;
+      border: 1px solid;
+      border-radius: 5px;
+      font-family: 'Mulish';
+      padding: 1% 1% 1% 1%;
+      text-align: center;
+      gap: 3%;
+      width: 10rem;
+    }
+}
