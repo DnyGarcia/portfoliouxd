@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="css/aboutme.css">
+    <link rel="stylesheet" href ="css/projects.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <title>Daniela García</title>
+</head>
+<body>
+    <header class="header-container">
+        <div class="logo-container">
+            <img class="logo" src="./assets/logo.png" alt="Logotipo Daniela García">
+            <p class="rol">User Experience Designer</p>
+        </div>
+        <div class="toggle-menu">
+            <input type="checkbox" name="toggle-menu">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+            <nav class="header-nav" id="nav">
+                <ul class="list-sections">
+                    <li id="aboutme" class="section-link"><a href="index.html">Acerca de mí</a></li>
+                    <li class="section-link"><a href="proyectos.html">Proyectos</a></li>
+                    <li class="section-link"><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="experience" id="projects">
+            <div class="projects-title">
+                <h1>Contacto</h1>
+            </div>
+            <div class="card">
+                <section class="contact">
+                    <div class="contact-container" id="contact">
+                        <img class="contact-image" src="./assets/contacto.png" alt="Imagen de medios de comunicación">
+                        <div class="contact-description">
+                            <div class="instructions">
+                                <p>¿Quieres contactarme?</p>
+                                <p>Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
+                            </div>
+                            <div class="contact-me">
+                                <form action="https://formsubmit.co/danig53@hotmail.com" method="POST" id="contact-form">
+                                    <label for="name">Nombre y apellido</label>
+                                    <input type="text" name="name" id="name" class="input" autocomplete="name" minlength="2" maxlength="30" data-tipo="name">
+                        
+                                    <label for="email-contact">Correo electrónico</label>
+                                    <input type="email" name="email" id="email-contact" class="input" placeholder="email@dominio.com" autocomplete="email" data-tipo="email">
+                        
+                                    <label for="phone">Teléfono</label>
+                                    <input type="tel" name="tel" id="phone" class="input placeholder="(xxx) xxx xxxx"autocomplete="tel" pattern="\d{10}" minlength="10" maxlength="10" data-tipo="phone">
+                        
+                                    <label for="message">Mensaje</label>
+                                    <textarea name="comments" id="message" cols="70" rows="10" class="input" autocomplete="off" data-tipo="phone"></textarea>
+                                    
+                                    <div class="send-container">
+                                        <input type="submit" value="Enviar" class="send-button" id="submit-button">
+                                        <input type="hidden" name="_next" value="https://dnygarcia.github.io/portafolio/">
+                                        <input type="hidden" name="_captcha" value="false">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>  
+                    </div>  
+                </section>
+            </div>
+                
+    </main>
+    <footer id="footer-container">
+        <p>Sitio diseñado y desarrollado por Daniela García - 2024</p>
+        <div class="social-media-container-footer">
+            <ul class="social-media-footer">
+                <li class="item-social">
+                    <a class="item-social-links" href="https://www.linkedin.com/in/daniela-garcia-dev/" target="_blank"><img src="./assets/linkedin-logo.png" alt="Logo de LinkedIn">LinkedIn</a>
+                </li>
+                <li class="item-social">
+                    <a class= my-email href="mailto:danig53@hotmail.com">danig53@hotmail.com</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
