@@ -23,6 +23,11 @@
     font-weight: normal;
 }
 
+.cv-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .button-container {
   display: flex;
   align-items: center;
